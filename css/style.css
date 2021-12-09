@@ -182,7 +182,6 @@ input[type=text], select, textarea, input[type=email] {
   border-radius: 4px;
   box-sizing: border-box; 
   margin-top: 6px;
-  margin-bottom: 16px;
   resize: vertical /* Allows vertically resize(not horizontally) */
 }
 

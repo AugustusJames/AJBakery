@@ -7,26 +7,30 @@
   <script src="https://kit.fontawesome.com/e99e365370.js" crossorigin="anonymous"></script>
 <title>AJ's Bakery</title>
 </head>
-
-<body>
+<body> 
 <header>
-<h1>AJ's Bakery</h1>
-	<nav class="navMenu">
-		<ul class="navLink">
-		  <li class="current"><a href="#" data-hover="Home">Home</a></li>
-		  <li><a href="events.html" data-hover="Events">Events</a></li>
-		  <li><a href="contact.html" data-hover="Contact">Contact</a></li>
-		</ul>
-	</nav>
-</header>
-  <div class="hero-image">
+    <h1 class="logo">AJ's Bakery</h1>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+    <ul>
+      <li class="current"><a href="#">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+    </label>
+ </header>
+<div class="hero-image">
   <div class="hero-text">
     <h1>HOME IS WHERE THE SUGAR IS</h1>
     <p>Let us make your day a little sweeter!</p>
   </div>
 </div>
-  <!--gallery  -->
- <p class="heading">Here are our favorites!<br><i class="far fa-heart"></i></p>
+<main>
+ <!--gallery  -->
+  <p class="heading">Check out our favorites!</p>
   <div class="gallery-image">
     <div class="img-box">
       <img src="https://images.unsplash.com/photo-1555526148-5cd740b44241?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Rainbow colored desserts" />
@@ -38,7 +42,7 @@
       </div> 
     </div>
     <div class="img-box">
-      <img src="https://images.unsplash.com/photo-1554886729-1a57f2750570?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="Vanilla Cake with Orchi flowers" />
+      <img src="https://images.unsplash.com/photo-1554886729-1a57f2750570?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="Vanilla Cake with Orchi flowers"/>
       <div class="transparent-box">
         <div class="caption">
           <p>Vanilla Cake</p>
@@ -74,24 +78,23 @@
       </div> 
     </div>
     <div class="img-box">
-      <img src="https://images.unsplash.com/photo-1509482560494-4126f8225994?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="Cinnamon Pancakes" />
+      <img src="https://images.unsplash.com/photo-1514509152927-0403a1b6a2d8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Cinnamon Roll and coffee" />
       <div class="transparent-box">
         <div class="caption">
-          <p>Apple Cinnamon Pancakes</p>
-          <p class="opacity-low">Fall into Fall!</p>
+          <p>Cinnamon Rolls</p>
+          <p class="opacity-low">Make mornings better!</p>
         </div>
       </div> 
     </div>
   </div>
-  <!--below starts the Footer  -->
+</main>
+   <!--below starts the Footer  -->
   <footer>
    
     <div class ="social">       
-      <a href="https://www.facebook.com/" target ="_blank"><i class="fab fa-facebook-square"></i> Facebook</a>
-      <i class="far fa-heart"></i>
-    <a href="https://www.instagram.com/" target ="_blank"><i class="fab fa-instagram"></i> Instagram</a>
-      <i class="far fa-heart"></i>
-    <a href="https://www.youtube.com/" target ="_blank"><i class="fab fa-youtube"></i> YouTube</a>
+      <a href="https://www.facebook.com/" target ="_blank" class="FB"><i class="fab fa-facebook-square"></i></a>
+    <a href="https://www.instagram.com/" target ="_blank" class="IG"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.youtube.com/" target ="_blank" class="YT"><i class="fab fa-youtube"></i></a>
       </div>
     </footer>
 </body>

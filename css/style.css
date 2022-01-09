@@ -266,15 +266,15 @@ nav a:hover {
   transition: background-color 0.3s ease;
 }
 
-.img-box:hover img, .img-box:active img, .img-box:focus { 
+.img-box:hover img, .img-box:focus img, .img-box:active img { 
   transform: scale(1.1);
 }
 
-.img-box:hover .transparent-box, .img-box:active .transparent-box, .img-box:focus .transparent-box {
+.img-box:hover .transparent-box, .img-box:focus .transparent-box, .img-box:active .transparent-box {
   background-color:rgba(0, 0, 0, 0.75);
 }
 
-.img-box:hover .caption, .img-box:active .caption, .img-box:focus .caption {
+.img-box:hover .caption, .img-box:focus .caption, .img-box:active .caption{
   transform: translateY(-20px);
   opacity: 1.0;
 }

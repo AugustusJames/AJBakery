@@ -594,11 +594,7 @@ footer {
 }
 
 /* media for devices that can't hover */
-@media (hover: hover) {
-  body {
-    background-color: #3399ff;
-  }
-}
+
 @media (hover: none) {
   body {
     background-color: #33cc33;
